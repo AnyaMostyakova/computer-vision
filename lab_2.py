@@ -54,7 +54,7 @@ def main():
 
     if mode == '1':
         # Режим обработки видеофайла
-        video_path = r"C:\Users\runga\Downloads\catball.mp4"  # Укажите путь к видеофайлу
+        video_path = r"C:\Users\runga\Downloads\catball.mp4"  # Путь к видеофайлу
         cap = cv2.VideoCapture(video_path)
     elif mode == '2':
         # Режим обработки видеопотока с камеры
